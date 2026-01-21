@@ -1,0 +1,38 @@
+{
+  "name": "cypress-avancado",
+  "version": "1.0.0",
+  "description": "Projeto baseado nas aulas do curso avançado de Cypress da Escola TAT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "standard": {
+    "globals": [
+      "beforeEach",
+      "context",
+      "cy",
+      "Cypress",
+      "describe",
+      "it"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josehluis/cypress-avancado.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress.io",
+    "testing"
+  ],
+  "author": "José Luís Santos",
+  "devDependencies": {
+    "@faker-js/faker": "^10.2.0",
+    "cypress": "^15.9.0",
+    "cypress-localstorage-commands": "^2.2.8",
+    "standard": "^17.1.2"
+  }
+}
